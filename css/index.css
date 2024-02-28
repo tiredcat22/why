@@ -1,0 +1,154 @@
+/* Functionality First, Style later */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+form {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.swal2-popup {
+  font-size: 1.6rem !important;
+  font-family: "Montserrat", sans-serif;
+}
+.center {
+  text-align: center;
+  padding: 15px;
+}
+
+.main-text {
+  font-size: 48px !important;
+}
+
+.montserrat-500 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+}
+
+.container {
+  /*background: gray none repeat scroll 0 0;
+  */
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  width: auto;
+  gap: 5px;
+}
+
+.book {
+  text-align: center;
+  background: #ffffff none repeat scroll 0 0;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 5px;
+  flex: 1 1 18%;
+  height: auto;
+  margin: 4px;
+  padding: 20px 0;
+  width: auto;
+}
+
+/* .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c9c9c9;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 35%;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .search-bar {
+    width: 75%;
+  }
+}
+
+/* 
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} */
+
+.search-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.search-box input{
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+}
+
+.search-box button{
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background: 0;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #FFF8F0;
+  border: none;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.book-text {
+  font-size: 1.5em;
+}
+.book-author {
+  font-size: 22px;
+}
+
+/* #test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
